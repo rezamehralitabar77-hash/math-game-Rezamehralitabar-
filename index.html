@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تقریب یاب پایه چهارم</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head/>
+<body><audio id="bgMusic" loop>
+    <source src="game.mp3" type="audio/mpeg">
+</audio>
+
+
+<div class="container">
+
+<!-- صفحه شروع -->
+<div id="startPage">
+
+<h1>🎮 تقریب یاب</h1>
+
+<h3>پایه چهارم ابتدایی</h3>
+
+<div class="creator">
+
+طراحی و برنامه نویسی
+
+<br>
+
+<b>رضا مهرعلی تبار فیروزجاه</b>
+
+</div>
+
+<input
+type="text"
+id="studentName"
+placeholder="نام دانش آموز">
+
+<button onclick="startGame()">
+
+شروع بازی 🚀
+
+</button>
+
+</div>
+
+<!-- صفحه بازی -->
+
+<div id="gamePage" style="display:none;">
+
+<div class="header">
+
+<div id="score">
+
+⭐ امتیاز : 0
+
+</div>
+
+<div id="questionNumber">
+
+سؤال 1 از 20
+
+</div>
+
+</div>
+
+<div class="questionBox">
+
+<h2 id="questionText">
+
+...
+
+</h2>
+
+</div>
+
+<div id="options">
+
+</div>
+
+</div>
+
+</div>
+
+<script src="questions.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
